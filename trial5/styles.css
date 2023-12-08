@@ -1,0 +1,34 @@
+/* Updated CSS */
+body {
+  background-color: #ddd; /* Change the background color to gray */
+}
+
+.timer-box {
+  width: 300px; /* Make the timer box larger */
+  background-color: #333;
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  font-size: 18px; /* Larger font size for the time */
+  color: green; /* Green font color for the time */
+  font-family: "Courier New", monospace; /* Keep the time font as specified */
+}
+
+.timer-name {
+  font-weight: bold;
+  font-size: 24px; /* Larger font size for the timer name */
+  color: white; /* White font color for the timer name */
+  font-family: "Georgia", serif; /* Title-like font for the timer name */
+  cursor: pointer;
+}
+
+.button {
+  width: 80px; /* Keep the buttons the same size */
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}

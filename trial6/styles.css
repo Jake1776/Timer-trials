@@ -1,0 +1,52 @@
+body {
+  background-color: gray;
+}
+
+.timer-box {
+  width: 300px;
+  background-color: #333;
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+}
+
+.timer-name {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+.timer-time {
+  font-size: 18px;
+  color: green;
+  font-family: "Courier New", monospace;
+}
+
+.button {
+  width: 80px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.confirmation-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.confirmation-popup button {
+  margin: 10px;
+}

@@ -1,0 +1,54 @@
+body {
+  background-color: #333;
+  color: #c00;
+  font-family: 'Courier New', Courier, monospace; /* Stopwatch-style font */
+}
+
+.timer {
+  border: 2px solid #c00; /* Dark red border */
+  padding: 10px;
+  margin: 10px;
+  background-color: #444; /* Dark gray background for timers */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Shadow effect */
+  width: 50%; /* Adjust the width to your preference */
+  max-width: 400px; /* Add a maximum width to prevent it from taking the entire width */
+  position: fixed;
+}
+
+.timerName {
+  color: #c00; /* Dark red timer name color */
+  font-size: 1.5em; /* Adjust the font size */
+  background: transparent; /* Remove background to make it look like regular text */
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Add pointer cursor for edit mode */
+}
+
+.timerName:focus {
+  border: 2px solid #0a0; /* Green border in edit mode */
+}
+
+.display {
+  color: #0a0; /* Green timer display color */
+  font-size: 2em; /* Larger font size */
+  text-align: center;
+}
+
+button {
+  width: 100px; /* Fixed width for the button */
+  background-color: #c00; /* Dark red button background */
+  color: #fff; /* White button text color */
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f00; /* Lighter red on hover */
+}
+
+#timers {
+  position: relative;
+}

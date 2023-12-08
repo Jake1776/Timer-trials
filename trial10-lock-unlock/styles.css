@@ -1,0 +1,77 @@
+body {
+  background-color: gray;
+}
+
+.timer-box {
+  width: 300px;
+  background-color: #333;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.timer-name {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  font-family: Arial;
+  cursor: text;
+  border-color: none;
+}
+
+.timer-time {
+  font-size: 18px;
+  color: green;
+  font-family: "Courier New", monospace;
+}
+
+.button {
+  width: 80px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.button:active {
+  opacity: 0.4;
+}
+.button.start {
+  background-color: green;
+}
+
+.button.stop {
+  background-color: yellow;
+  color: black;
+}
+
+.confirmation-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.confirmation-popup button {
+  margin: 10px;
+}
+
+.timer-box.locked {
+  pointer-events: none;
+}

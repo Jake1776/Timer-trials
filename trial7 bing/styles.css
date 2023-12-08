@@ -1,0 +1,24 @@
+.timer {
+  border: 1px solid red;
+  background-color: darkgrey;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  position: absolute;
+}
+
+.timer h2 {
+  cursor: pointer;
+}
+
+.timer p {
+  color: green;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.timer button {
+  background-color: red;
+  color: white;
+  border: none;
+  margin-right: 5px;
+}
