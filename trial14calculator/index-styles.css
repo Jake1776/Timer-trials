@@ -107,5 +107,5 @@ body {
 }
 
 a {
-  all: initial;
+  text-decoration: none;
 }
