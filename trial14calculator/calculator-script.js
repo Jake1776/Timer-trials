@@ -9,7 +9,4 @@ function calculateTotal() {
 
   var totalDollars = hourlyRate * hoursWorked;
   var timeInBnopx = totalDollars / hourlyRate;
-
-  document.getElementById('result').innerHTML = 'Total: $' + totalDollars.toFixed(2) + '<br>' +
-    'Equivalent time in Bnopx: ' + timeInBnopx.toFixed(2) + ' bnopx';
 }
