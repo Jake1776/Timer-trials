@@ -1,3 +1,14 @@
+function handleKeyPress(event, nextField) {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    document.getElementById(nextField).focus();
+    
+    if (nextField === 'calculateButton') {
+      calculateTotal();
+    }
+  }
+}
+
 function calculateTotal() {
   var hourlyRate = parseFloat(document.getElementById('hourlyRate').value);
   var hoursWorked = parseFloat(document.getElementById('hoursWorked').value);
