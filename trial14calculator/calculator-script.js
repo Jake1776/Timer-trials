@@ -3,7 +3,7 @@ function calculateTotal() {
   var hoursWorked = parseFloat(document.getElementById('hoursWorked').value);
 
   if (isNaN(hourlyRate) || isNaN(hoursWorked)) {
-    alert('Please enter valid numeric values.');
+    alert('Please enter a valid numeric value');
     return;
   }
 
