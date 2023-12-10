@@ -3,11 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="calculator-styles.css">
-  <title>Conversion Calculator</title>
+  <title>Time to Dollars Calculator</title>
+  <link rel="stylesheet" href="calculator-styles.css">
 </head>
 <body>
-  <p>This is a test</p>
-  <p>This is a test</p>
+
+<div id="calculator">
+  <label for="hourlyRate">Hourly Rate ($):</label>
+  <input type="number" id="hourlyRate" placeholder="Enter hourly rate">
+
+  <label for="hoursWorked">Hours Worked:</label>
+  <input type="number" id="hoursWorked" placeholder="Enter hours worked">
+
+  <button onclick="calculateTotal()">Calculate Total</button>
+
+  <div id="result"></div>
+</div>
+
+<script src="calculator-script.js"></script>
+
 </body>
 </html>
